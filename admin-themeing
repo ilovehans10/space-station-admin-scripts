@@ -1,0 +1,12 @@
+> self not prototyped AdminObserver do "aghost"
+> self do "vvwrite /entity/$ID/Name \"Little Hans\""
+> self comp:ensure ShowHealthBars comp:ensure ShowCriminalRecordIcons comp:ensure ShowJobIcons comp:ensure ShowMindShieldIcons comp:ensure ShowSyndicateIcons comp:ensure Grammar comp:ensure Identity comp:ensure ShowAntagIcons comp:ensure ShowElectrocutionHUD
+> self comp:rm GhostHearing
+> self scale:set [.3, .3]
+> self do "vvwrite entity/$ID/GhostTheme/SelectedGhostTheme 'SpaceDragonStaffTheme'"
+> self do "vvwrite entity/$ID/GhostTheme/GhostThemeColor '#00cc00'"
+> self do "vvwrite entity/$ID/Ghost/Color '#00cc00'"
+> self do "vvwrite entity/$ID/MovementSpeedModifier/BaseSprintSpeed 40"
+> self do "vvwrite entity/$ID/MovementSpeedModifier/BaseWalkSpeed 12"
+> self spawn:in "neck" SuperSynthesizerInstrumentAdmeme
+togglelight

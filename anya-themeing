@@ -1,0 +1,27 @@
+# CAD Loadout
+> self do "vvwrite /entity/$ID/Name \"CED Senior Engineer Anya Shrimpson\""
+
+# Mindshield
+> self comp:ensure Mindshield
+> self comp:ensure AntagImmune
+
+# Clothing
+> self spawn:in "jumpsuit" ClothingUniformJumpskirtCentcomOfficer
+# > self spawn:in "outerClothing" ClothingOuterCoatWardenCentcomm
+> self spawn:in "neck" ClothingNeckCloakCEDMantle
+> self spawn:in "head" ClothingHeadHatCCberet
+> self spawn:in "shoes" ClothingShoesBootsLaceup
+# > self spawn:in "shoes" ClothingShoesBootsCowboyBlack do "ent $ID spawn:in \"item\" WeaponM1911"
+# > self spawn:in "eyes" ClothingEyesGlassesCentComm
+> self spawn:in "ears" ClothingHeadsetAltCentComDS
+> self spawn:in "gloves" ClothingHandsGlovesCombat
+# > self spawn:in "mask" "ClothingMaskGasCentcom"
+> self spawn:in "id" CentcomPDA
+> self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/_jobTitle \"CED Senior Engineer\""
+> self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/FullName \"Anya Shrimpson\""
+
+# Weapons
+> self spawn:in "belt" CentcommVibrobladeSheath do "ent $ID spawn:in \"item\" CentcommVibroblade"
+> self spawn:in "pocket1" BoxFolderCentComClipboard
+
+> self spawn:in "back" ClothingBackpackSatchelCentcomm do "ent $ID spawn:in \"storagebase\" DeathRattleImplanterCentcomm" do "ent $ID spawn:in \"storagebase\" BoxSurvivalEngineering" do "ent $ID spawn:in \"storagebase\" SuperSynthesizerInstrument" do "ent $ID spawn:in \"storagebase\" BoxFolderCentComClipboard" do "ent $ID spawn:in \"storagebase\" RubberStampApproved" do "ent $ID spawn:in \"storagebase\" RubberStampDenied" do "ent $ID spawn:in \"storagebase\" RubberStampCED" do "ent $ID spawn:in \"storagebase\" RubberStampCentom" do "ent $ID spawn:in \"storagebase\" DoorRemoteAll"
