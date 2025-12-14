@@ -1,5 +1,5 @@
 # CSD Loadout
-> self do "vvwrite /entity/$ID/Name \"CSD Senior Engineer Anya Shrimpson\""
+> self do "vvwrite /entity/$ID/Name \"CSD Enforcement Officer Pam Folter\""
 
 # Mindshield
 > self comp:ensure Mindshield
@@ -15,8 +15,8 @@
 > self spawn:in "ears" ClothingHeadsetAltCentComDS
 > self spawn:in "gloves" ClothingHandsGlovesCombat
 > self spawn:in "id" CentcomPDA
-> self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/_jobTitle \"CSD Senior Engineer\""
-> self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/FullName \"Anya Shrimpson\""
+> self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/_jobTitle \"CSD Enforcement Officer\""
+> self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/FullName \"Pam Folter\""
 
 # Weapons
 > self spawn:in "belt" CentcommVibrobladeSheath do "ent $ID spawn:in \"item\" CentcommVibroblade"
