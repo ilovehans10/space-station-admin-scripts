@@ -9,4 +9,5 @@
 > self do "vvwrite entity/$ID/MovementSpeedModifier/BaseSprintSpeed 40"
 > self do "vvwrite entity/$ID/MovementSpeedModifier/BaseWalkSpeed 12"
 > self spawn:in "neck" SuperSynthesizerInstrumentAdmeme
+> self spawn:in "eyes" ClothingEyesHudDiagnostic
 togglelight
