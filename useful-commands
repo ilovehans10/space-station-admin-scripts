@@ -6,3 +6,7 @@
 > entities with NukeOperative actor:controlled visualize
 # visualize smuggler's satchels
 > entities with Anchorable with Clothing visualize
+# spawn an item in your admin bag !!ADD ITEM PROTOID TO THE END OF THE COMMAND!!
+> self nearby 0 named "satchel of administration" spawn:in "storagebase"
+# spawn a Forensic Scanner in your admin bag
+> self nearby 0 named "satchel of administration" spawn:in "storagebase" ForensicScanner
