@@ -4,8 +4,15 @@
 > entities with Zombie actor:controlled visualize
 # visualize active nukies
 > entities with NukeOperative actor:controlled visualize
+# visualize mechs
+> entities with MechAir visualize
+# visualize borgs
+> entities with BorgChassis actor:controlled visualize
 # visualize smuggler's satchels
 > entities with Anchorable with Clothing visualize
+# visualize aghosts
+> entities prototyped AdminObserver visualize
+
 # spawn an item in your admin bag !!ADD ITEM PROTOID TO THE END OF THE COMMAND!!
 > self nearby 0 named "satchel of administration" spawn:in "storagebase"
 # spawn a Forensic Scanner in your admin bag
