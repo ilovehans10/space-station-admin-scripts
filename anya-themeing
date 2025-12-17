@@ -16,12 +16,10 @@
 > self spawn:in "ears" ClothingHeadsetAltCentComDS
 > self spawn:in "gloves" ClothingHandsGlovesCombat
 # > self spawn:in "mask" "ClothingMaskGasCentcom"
+> self spawn:in "belt" ClothingBeltChiefEngineerFilled
+
 > self spawn:in "id" CentcomPDA
 > self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/_jobTitle \"CED Senior Engineer\""
 > self do "vvwrite /entity/$ID/ContainerContainer/Containers[id]/ContainedEntity/Pda/ContainedId/IdCard/FullName \"Anya Shrimpson\""
-
-# Weapons
-> self spawn:in "belt" CentcommVibrobladeSheath do "ent $ID spawn:in \"item\" CentcommVibroblade"
-> self spawn:in "pocket1" BoxFolderCentComClipboard
 
 > self spawn:in "back" ClothingBackpackSatchelCentcomm do "ent $ID spawn:in \"storagebase\" DeathRattleImplanterCentcomm" do "ent $ID spawn:in \"storagebase\" SuperSynthesizerInstrument" do "ent $ID spawn:in \"storagebase\" BoxFolderCentComClipboard" do "ent $ID spawn:in \"storagebase\" RubberStampApproved" do "ent $ID spawn:in \"storagebase\" RubberStampDenied" do "ent $ID spawn:in \"storagebase\" RubberStampCED" do "ent $ID spawn:in \"storagebase\" RubberStampCentcom" do "ent $ID spawn:in \"storagebase\" DoorRemoteAll" do "ent $ID spawn:in \"storagebase\" DrinkLongIslandIcedTeaGlass" do "ent $ID spawn:in \"storagebase\" DrinkLongIslandIcedTeaGlass"
