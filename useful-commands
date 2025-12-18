@@ -19,6 +19,9 @@
 > self nearby 0 named "satchel of administration" spawn:in "storagebase" ForensicScanner
 
 # NOTE: the follwing commands will spawn the item on the ground and as such shouldn't be used while near players
+# If you wish to spawn the item in your bag you can change 'spawn:on' to 'nearby 0 named "satchel of administration" spawn:in "storagebase"'
+# This is an example of the "Wrong Form" stamp where it spawns in your bag instead of on the ground
+> self nearby 0 named "satchel of administration" spawn:in "storagebase" RubberStampDenied do "vvwrite /entity/$ID/Name \"Wrong Form Stamp\"" do "vvwrite /entity/$ID/Stamp/StampedName \"Wrong Form\""
 # spawn a stamp on the ground that stamps the message: Wrong Form
 > self spawn:on RubberStampDenied do "vvwrite /entity/$ID/Name \"Wrong Form Stamp\"" do "vvwrite /entity/$ID/Stamp/StampedName \"Wrong Form\""
 # spawn a stamp on the ground that stamps the message: Missing Stamps
