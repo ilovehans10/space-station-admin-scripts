@@ -12,6 +12,12 @@
 > entities with Anchorable with Clothing visualize
 # visualize aghosts
 > entities prototyped AdminObserver visualize
+# visualize command staff
+> entities with CommandStaff visualize
+# visualize revolutionaries
+> entities with Revolutionary not with CryostorageContained visualize
+# visualize non-revs in a rev round
+> entities not with Revolutionary not with CryoStorageContained with HumanoidAppearance actor:controlled visualize
 
 # spawn an item in your admin bag !!ADD ITEM PROTOID TO THE END OF THE COMMAND!!
 > self nearby 0 named "satchel of administration" spawn:in "storagebase"
