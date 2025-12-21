@@ -36,3 +36,5 @@
 > self spawn:on RubberStampQm do "vvwrite /entity/$ID/Name \"ATS Stamp\"" do "vvwrite /entity/$ID/Stamp/StampedName \"Delivered to ATS\""
 # spawn a stamp on the ground that stamps the message: Acknowledged
 > self spawn:on RubberStampApproved do "vvwrite /entity/$ID/Name \"Acknowledged Stamp\"" do "vvwrite /entity/$ID/Stamp/StampedName \"Acknowledged\""
+# spawn a duffel bag of holding on the ground that is full of presents
+> self spawn:on ClothingBackpackDuffelHolding rep 100 spawn:in PresentRandom
