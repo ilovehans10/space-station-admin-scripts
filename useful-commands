@@ -19,6 +19,11 @@
 # visualize non-revs in a rev round
 > entities not with Revolutionary not with CryoStorageContained with HumanoidAppearance actor:controlled visualize
 
+# add the common language to the marked entity so they can speak and understand it
+> marked language:add GalacticCommon true true
+# add the machine language to the marked entity so they can speak and understand it
+> marked language:add Machine true true
+
 # spawn an item in your admin bag !!ADD ITEM PROTOID TO THE END OF THE COMMAND!!
 > self nearby 0 named "satchel of administration" spawn:in "storagebase"
 # spawn a Forensic Scanner in your admin bag
